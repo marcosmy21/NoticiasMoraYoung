@@ -2,6 +2,10 @@ html{
 	background-image: url(../assets/images/pexels-backg-5678910.jpg);
 }
 
+body{
+	margin: 0px;
+}
+
 @font-face{
 	font-family: OpenSansCondensed;
 	src: url(../assets/fonts/OpenSansCondensed-LightItalic.ttf);
@@ -20,6 +24,11 @@ html{
 .imgPrimeraNoticiaIndex img{
 	padding: 0px 0px 0px 70px;
 	width: 16vw;
+}
+
+.tituloPaginas{
+	color: white;
+	text-shadow: 2px 3px 4px black;
 }
 
 p{
@@ -66,6 +75,10 @@ li{
 	display: flex;
 }
 
+.tituloNoticias{
+	font-size: 25px;
+}
+
 .div{
 	padding: 28px;
 }
@@ -79,7 +92,7 @@ li{
 }
 
 .imgRollheiser{
-	padding: 80px 0px 0px 0px;
+	padding: 80px 0px 0px 0.5vw;
 }
 
 .gridContainerIndex{
@@ -91,8 +104,8 @@ li{
 	"segundaNot segundaNot segundaNot imgSegunda"
 	"imgTercera terceraNot terceraNot terceraNot"
 	"footer footer footer footer" ;
-	grid-template-rows: 10vw 10vw 29vw 26vw 27vw 10vw ;
-	grid-template-columns:27,5% 24% 24% 24% ; 
+	grid-template-rows: 9vw 11vw 29vw 26vw 27vw 16vw ;
+	grid-template-columns:28vw 23vw 23vw 26vw ; 
 }
 
 .imgLogo{
@@ -123,6 +136,7 @@ li{
 
 .segundaNoticiaIndex{
 	grid-area: segundaNot;
+	padding-left: 1vw;
 }
 
 .imgRollheiser{
@@ -344,6 +358,17 @@ iframe{
 
 .footerQueHacemos{
 	grid-area: footer;
+}
+
+.imgQH{
+	border: black 5px outset;
+}
+
+a:hover{
+	font-size: 25px;
+	color: darkblue;
+	font-weight: bold;
+	transition: 0.5s;
 }
 
 /*vista mobile*/
