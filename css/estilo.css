@@ -31,6 +31,22 @@ body{
 	text-shadow: 2px 3px 4px black;
 }
 
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+ .imgLogo{
+	animation-duration: 5s;
+	animation-name: aparecer;
+	animation-iteration-count: 1;
+}
+
+
 p{
 	font-size: 16px;
 	color: lightgoldenrodyellow;
